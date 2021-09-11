@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<persistence>
+	<persistence-unit name="RestApiDS">
+		<jta-data-source>java:/RestApiDS</jta-data-source>
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="update" /> 
+			<property name="hibernate.show_sql" value="true" /> 
+			<property name="hibernate.format_sql" value="true" /> 
+		</properties>
+	</persistence-unit>
+</persistence>
